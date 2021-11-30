@@ -1,0 +1,36 @@
+$a: green;
+h1{
+    color: $a;
+} 
+$color_botones: white;
+$p: relative;
+$alto: 50px;
+$ancho: 60px;
+$radio: 10px;
+$texto: #6ad1d8;
+$borde: 2px solid #6ad1d8;
+$margen: 20px;
+$caja: 0 0 3px #bef4f8, 0 0 8px #bef4f8, 0 0 8px #bef4f8;
+.boton{
+	background-color: $color_botones;
+    position: $p;
+    height: $alto;
+    width: $ancho;
+    border-radius: $radio;
+    color: $texto;
+    border: $borde;
+    margin-bottom: $margen;
+}
+.button:hover {
+    box-shadow: $caja;
+    background-color: #bef4f8;
+  }
+ $grid: 200px;
+ .container{
+     padding-right: $grid;
+     padding-left: $grid;
+ }
+$color_navbar: white;
+.barra{
+    background-color:  $color_navbar;
+}
